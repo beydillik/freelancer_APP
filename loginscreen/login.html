@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="https://kit.fontawesome.com/30dd7417bd.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+
+
+
+
+    <section>
+
+
+    <div class="login-box" >
+        <form action="">
+
+
+            <h2>Employer Login</h2>
+            <div class="input-box">
+                <smpan class="icon"><i class="fa-solid fa-paper-plane"></i></smpan>
+                <input type="email" required>
+                <label >Email</label>
+
+            </div>
+            <div class="input-box">
+                <smpan class="icon"><i class="fa-solid fa-key"></i></smpan>
+                <input type="password" required>
+                <label >Password</label>
+
+            </div>
+            <div class="remember-forgot">
+                <label ><input type="checkbox">remmember me</label>
+                <a href="#">Forgot Password</a>
+            </div>
+            <button type="submit">Login</button>
+            <div class="register-link">
+                <p> Don't have an account?<a id="etiket"  href="">Register</a></p>
+            </div>
+
+
+
+        </form>
+    </div>
+   
+    
+    <div class="login-box" >
+        <form action="">
+
+
+            <h2>Freelancer Login</h2>
+            <div class="input-box">
+                <smpan class="icon"><i class="fa-solid fa-paper-plane"></i></smpan>
+                <input type="email" required>
+                <label >Email</label>
+
+            </div>
+            <div class="input-box">
+                <smpan class="icon"><i class="fa-solid fa-key"></i></smpan>
+                <input type="password" required>
+                <label >Password</label>
+
+            </div>
+            <div class="remember-forgot">
+                <label ><input type="checkbox">remmember me</label>
+                <a href="#">Forgot Password</a>
+            </div>
+            <button type="submit">Login</button>
+            <div class="register-link">
+                <p> Don't have an account?<a id="etiket2" href="">Register</a></p>
+            </div>
+
+
+
+        </form>
+    </div>
+
+
+
+
+
+    <div class="sing-in-box 1" id="degisecekDiv" style="margin-right: 500px; display: none;">
+        <form action="">
+
+
+            <h2>Employer Sing-in</h2>
+            <div class="input-box">
+                <smpan class="icon"><i class="fa-solid fa-paper-plane"></i></smpan>
+                <input type="email" required>
+                <label >Email</label>
+
+            </div>
+            <div class="input-box">
+                <smpan class="icon"><i class="fa-solid fa-paper-plane"></i></smpan>
+                <input type="text" required>
+                <label >User Name</label>
+
+            </div>
+            <div class="input-box">
+                <smpan class="icon"><i class="fa-solid fa-key"></i></smpan>
+                <input type="password" required>
+                <label >Password</label>
+
+            </div>
+           
+            <div class="input-box">
+                <smpan class="icon"><i class="fa-solid fa-key"></i></smpan>
+                <input type="password" required>
+                <label >Confirm Password</label>
+
+            </div>
+            <div class="remember-forgot">
+                <label ><input type="checkbox">remmember me</label>
+                
+            </div>
+            <button type="submit">Sing-in</button>
+            <div class="register-link">
+                <p> You have an account?<a id="Freelancersingin" href="">Sing-in</a></p>
+            </div>
+
+
+
+        </form>
+    </div>
+    <div class="sing-in-box 2" id="degisecekDiv2" style="margin-left: 500px;display: none;" >
+        <form action="">
+
+
+            <h2>Employer Sing-in</h2>
+            <div class="input-box">
+                <smpan class="icon"><i class="fa-solid fa-paper-plane"></i></smpan>
+                <input type="email" required>
+                <label >Email</label>
+
+            </div>
+            <div class="input-box">
+                <smpan class="icon"><i class="fa-solid fa-paper-plane"></i></smpan>
+                <input type="text" required>
+                <label >User Name</label>
+
+            </div>
+            <div class="input-box">
+                <smpan class="icon"><i class="fa-solid fa-key"></i></smpan>
+                <input type="password" required>
+                <label >Password</label>
+
+            </div>
+           
+            <div class="input-box">
+                <smpan class="icon"><i class="fa-solid fa-key"></i></smpan>
+                <input type="password" required>
+                <label >Confirm Password</label>
+
+            </div>
+            <div class="remember-forgot">
+                <label ><input type="checkbox">remmember me</label>
+                
+            </div>
+            <button type="submit">Sing-in</button>
+            <div class="register-link">
+                <p> You have an account?<a href="">Sing-in</a></p>
+            </div>
+
+
+
+        </form>
+    </div>
+
+
+
+
+<script>
+    document.getElementById('etiket').addEventListener('click', function(e) {
+    e.preventDefault(); // Sayfanın yeniden yüklenmesini önlemek için
+  
+    var degisecekDiv = document.getElementById('degisecekDiv');
+  
+    // Eğer div görünürse, display özelliğini none yapar; görünmezse flex yapar.
+    degisecekDiv.style.display = (degisecekDiv.style.display === 'flex') ? 'none' : 'flex';
+  });
+  document.getElementById('etiket2').addEventListener('click', function(e) {
+    e.preventDefault(); // Sayfanın yeniden yüklenmesini önlemek için
+  
+    var degisecekDiv2 = document.getElementById('degisecekDiv2');
+  
+    // Eğer div görünürse, display özelliğini none yapar; görünmezse flex yapar.
+    degisecekDiv2.style.display = (degisecekDiv2.style.display === 'flex') ? 'none' : 'flex';
+  });
+ 
+  
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

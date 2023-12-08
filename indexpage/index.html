@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/30dd7417bd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!---------------------------------------------Header Start------------------------------------------->
+    <nav class="navbar">
+
+
+        <div class="navbar-left">
+            <a href="index.html" class="logo"> <img src="images/logo2.png"> </a>
+            <div class="search-box">
+                <img src="images/search.png" alt="">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="#" class="active-link"><img src="images/home.png"><span>Home</span></a></li>
+                <li><a href="#"><img src="images/network.png"><span>My Network</span></a></li>
+                <li><a href="#"><img src="images/jobs.png"><span>Jobs</span></a></li>
+                <li><a href="#"><img src="images/message.png"><span>Messaging</span></a></li>
+                <li><a href="#"><img src="images/notification.png"><span>Notfications</span></a></li>
+            </ul>
+
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="images/kemal.jpeg" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+
+        </div>
+
+        <!---------------------------------------------Profile-Dropdown-Menu------------------------------------------------->
+
+ <div class="profile-menu-wrap" id="profile">
+
+    <div class="profile-menu">
+        <div class="user-info">
+            <img src="images/kemal.jpeg">
+            <div>
+                <h3>Kemal Beydilli</h3>
+                <a href="profile.html">See Your Profile</a>
+
+            </div>
+        </div>
+        <hr>
+        <a href="#" class="profile-menu-link">
+            <img src="images/feedback.png" >
+            <p>Give Feedback</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="images/setting.png" >
+            <p>Settings & privacy</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="images/help.png" >
+            <p>Help & support</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="images/display.png" >
+            <p>display &accesiblity</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="images/logout.png" >
+            <p>Logout</p>
+            <span>></span>
+        </a>
+    </div>
+ </div>
+
+
+
+
+
+
+    </nav>
+
+    <!---------------------------------------------Header End-------------------------------------------------->
+
+
+
+
+
+
+    <!---------------------------------------------Body Start------------------------------------------->
+
+    <div class="container">
+        <!---------------------------------------------left-sidebar Start------------------------------------------->
+        <div class="left-sidebar">
+
+
+            <div class="sidebar-profile-box">
+                <img src="images/cover3.jpg" style="width: 100%;">
+                <div class="sidebar-profile-info">
+                    <img src="images/kemal.jpeg" alt="">
+                    <h1>Kemal Beydilli</h1>
+                    <h3>Ios Developer at Apple</h3>
+                    <ul>
+                        <li>Your profile views <span>52</span> </li>
+                        <li>Your post views <span>350</span> </li>
+                        <li>Your connections <span>680</span> </li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-profile-link">
+                    <a href="#"><img src="images/items.png" alt="">My items</a>
+                    <a href="#"><img src="images/premium.png" alt="">Try Premium</a>
+
+                </div>
+            </div>
+
+
+            <div class="sidebar-activity">
+                <h3>Recent</h3>
+                <a href="#"><img src="images/recent.png" alt="">Web Development</a>
+                <a href="#"><img src="images/recent.png" alt="">User Interface</a>
+                <a href="#"><img src="images/recent.png" alt="">Machine Learning</a>
+                <a href="#"><img src="images/recent.png" alt="">Learn Online</a>
+                <a href="#"><img src="images/recent.png" alt="">Code Bester</a>
+                <a href="#"><img src="images/recent.png" alt="">Group Learning</a>
+                <h3>GROUPS</h3>
+                <a href="#"><img src="images/group.png" alt="">Front-End Desgin Group</a>
+                <a href="#"><img src="images/group.png" alt="">Machine Learning Group</a>
+                <a href="#"><img src="images/group.png" alt="">c# Learners Group</a>
+                <a href="#"><img src="images/group.png" alt="">Web Desgin Group</a>
+                <h3>HASHTAG</h3>
+                <a href="#"><img src="images/hashtag.png" alt="">Web Development</a>
+                <a href="#"><img src="images/hashtag.png" alt="">User Page</a>
+                <a href="#"><img src="images/hashtag.png" alt="">Software</a>
+                <a href="#"><img src="images/hashtag.png" alt="">Microsoft</a>
+                <div class="discover-more-link">
+                    <a href="#">Discower More</a>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+        <!---------------------------------------------Main-Content Start------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="main-content">
+
+            <div class="create-post">
+                <div class="create-post-input">
+
+                    <img src="images/kemal.jpeg" alt="">
+
+                    <textarea rows="2" placeholder="Write a post"></textarea>
+
+                </div>
+
+                <div class="create-post-links">
+                    <li><img src="images/photo.png" alt="">Photo</li>
+                    <li><img src="images/video.png" alt="">Video</li>
+                    <li><img src="images/event.png" alt="">Event</li>
+                    <li style="background: #045be6; color: #fff;">Post</li>
+
+                </div>
+            </div>
+
+            <div class="sort-by">
+                <hr>
+                <p>Sort by: <span>top <img src="images/down-arrow.png" alt=""></span></p>
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="images/ecem.jpeg" alt="">
+                    <div>
+                        <h1>
+                            Ecemnur Akatmaci
+                        </h1>
+                        <small>Founder and CEO at Tesla Tecnology Company | Angel Investor</small>
+                        <small>2 hours age</small>
+                    </div>
+
+
+                </div>
+
+                <p>Excited to share the latest from Tesla! 🚀 The groundbreaking innovations and relentless pursuit of
+                    sustainable technology continue to redefine the automotive industry. From cutting-edge electric
+                    vehicles to advancements in renewable energy solutions, Tesla is at the forefront of the clean
+                    energy revolution. Proud to witness and support the transformative impact of Elon Musk and the
+                    entire Tesla team. Here's to a future where sustainability meets performance, and where innovation
+                    knows no bounds. #Tesla #Innovation #CleanEnergy #Sustainability #ElectricVehicles 🌍🔋</p>
+                <img src="images/tesla.png" width="100%">
+
+                <div class="post-stats">
+                    <div>
+                        <img src="images/thumbsup.png" alt="">
+                        <img src="images/love.png" alt="">
+                        <img src="images/clap.png" alt="">
+                        <span class="liked-user">Ozgur Cagatay Su and 75 others </span>
+                    </div>
+                    <div>
+                        <span>45 comments &middot; 85 shares</span>
+                    </div>
+                </div>
+
+                <div class="post-activity">
+                    <div>
+                        <img src="images/kemal.jpeg" class="post-activity-user-icon">
+                        <img src="images/down-arrow.png" class="post-activity-arrow-icon">
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/like.png">
+                        <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/comment.png">
+                        <span>Comment</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/share.png">
+                        <span>Share</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/send.png">
+                        <span>Send</span>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="images/ozgur.jpeg" alt="">
+                    <div>
+                        <h1>
+                            Ozgur Cagatay Su
+                        </h1>
+                        <small>Founder and CEO at Microsoft Tecnology | IT Department</small>
+                        <small>2 days ago</small>
+                    </div>
+
+
+                </div>
+
+                <p>Thrilled to share the latest from Microsoft! 🚀 The constant innovation and commitment to empowering individuals and organizations are truly inspiring. From cutting-edge advancements in cloud computing with Azure to the seamless collaboration facilitated by Microsoft 365, the impact on the tech landscape is unparalleled. Proud to be a witness to the transformative journey led by Satya Nadella and the entire Microsoft team. Here's to a future where technology not only evolves but also enriches lives and fosters a more connected world. #Microsoft #Innovation #Technology #Empowerment 💻🌐</p>
+                <img src="images/microsoft.jpg" width="100%">
+
+                <div class="post-stats">
+                    <div>
+                        <img src="images/thumbsup.png" alt="">
+                        <img src="images/love.png" alt="">
+                        <img src="images/clap.png" alt="">
+                        <span class="liked-user">Ecemnur Akatmaci and 75 others </span>
+                    </div>
+                    <div>
+                        <span>440 comments &middot; 832 shares</span>
+                    </div>
+                </div>
+
+                <div class="post-activity">
+                    <div>
+                        <img src="images/kemal.jpeg" class="post-activity-user-icon">
+                        <img src="images/down-arrow.png" class="post-activity-arrow-icon">
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/like.png">
+                        <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/comment.png">
+                        <span>Comment</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/share.png">
+                        <span>Share</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/send.png">
+                        <span>Send</span>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="images/samet.jpeg" alt="">
+                    <div>
+                        <h1>
+                            Samet Ruzgar
+                        </h1>
+                        <small>Junior Software Developer | No Company</small>
+                        <small>3 days ago</small>
+                    </div>
+
+
+                </div>
+
+                <p>Excited to share the dynamic world of software development! 🚀 In an era defined by digital transformation, software is the driving force behind innovation and efficiency. Whether it's crafting elegant code, implementing robust solutions, or contributing to open-source projects, the realm of software is a vibrant ecosystem where creativity meets problem-solving. Embracing the latest technologies and methodologies, software professionals are architects of the digital future. Here's to the developers, engineers, and tech enthusiasts shaping the landscape of tomorrow's tech-driven world. Let's code the future together! 💻🌐 #SoftwareDevelopment #TechInnovation #CodingCommunity #DigitalTransformation 🚀</p>
+                <img src="images/juniors.jpg" width="100%">
+
+                <div class="post-stats">
+                    <div>
+                        <img src="images/thumbsup.png" alt="">
+                        <img src="images/love.png" alt="">
+                        <img src="images/clap.png" alt="">
+                        <span class="liked-user">Ecemnur Akatmaci and 75 others </span>
+                    </div>
+                    <div>
+                        <span>15 comments &middot; 12 shares</span>
+                    </div>
+                </div>
+
+                <div class="post-activity">
+                    <div>
+                        <img src="images/kemal.jpeg" class="post-activity-user-icon">
+                        <img src="images/down-arrow.png" class="post-activity-arrow-icon">
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/like.png">
+                        <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/comment.png">
+                        <span>Comment</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/share.png">
+                        <span>Share</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/send.png">
+                        <span>Send</span>
+                    </div>
+                </div>
+
+
+
+            </div>
+            
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <!---------------------------------------------right-sidebar Start------------------------------------------->
+        <div class="right-sidebar">
+
+            <div class="sidebar-news">
+                <img src="images/more.png" alt="" class="info-icon">
+                <h3>Trending News</h3>
+                <a href="#">"AI-Powered Natural Language Processing Algorithm Developed!"</a>
+                <span>1d ago &middot; 10.934 readers</span>
+
+                <a href="#">"Revolutionary Blockchain Technology Unveils New Era in Software Development!"</a>
+                <span>1d ago &middot; 10.934 readers</span>
+
+                <a href="#">"Innovative Mobile App Simplifies Complex Tasks with User-Friendly Interface."</a>
+                <span>10d ago &middot; 10.934 readers</span>
+
+                <a href="#">"Open Source Collaboration Yields Powerful New Programming Language."</a>
+                <span>12d ago &middot; 10.934 readers</span>
+
+                <a href="#">"Open Source Collaboration Yields Powerful New Programming Language."</a>
+                <span>15d ago &middot; 10.934 readers</span>
+
+                <a href="#" class="read-more-link"> Read More</a>
+
+
+
+            </div>
+            <div class="sidebar-ad">
+
+                <small>Ad &middot; &middot;</small>
+                <p>Master the 5 priciples of Pyton programming</p>
+                <div>
+                    <img src="images/kemal.jpeg" alt="">
+                    <img src="images/mercedes-logo.png" alt="">
+                </div>
+                <b>Brand and Demand in Mercedes</b>
+                <a href="#" class="ad-link">Learn More</a>
+
+            </div>
+            <div class="sidebar-useful-links">
+                <a href="#">About</a>
+                <a href="#">Accesiblitiy</a>
+                <a href="#">Help Center</a>
+                <a href="#">Advertising</a>
+                <a href="#">More</a>
+                <div class="copyright-msg">
+                    <img src="images/logo2.png" alt="">
+                    <p>Web Wizdards &#169;2023. All right reserved</p>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+
+    </div>
+
+    <!---------------------------------------------Body End------------------------------------------->
+
+
+
+  <script>
+
+
+    let profile =document.getElementById("profile");
+    function toggleMenu()
+    {
+        profile.classList.toggle("open-menu")
+    }
+  </script>
+
+
+
+</body>
+
+
+</html>
